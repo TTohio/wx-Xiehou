@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/func/func",
+    "pages/mine/mine",
+    "pages/selectResult/selectResult",
+    "pages/home/daily/daily",
+    "pages/home/brand/channel/channel",
+    "pages/home/brand/zml/zml",
+    "pages/home/brand/jl/jl",
+    "pages/home/brand/dior/dior",
+    "pages/home/brand/lk/lk",
+    "pages/home/brand/tf/tf"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#121212",
+    "navigationBarTitleText": "邂逅",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#8e8e8e",
+    "selectedColor": "#121212",
+    "backgroundColor": "#ededed",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "icon/home.png",
+        "selectedIconPath": "icon/_home.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/func/func",
+        "iconPath": "icon/func.png",
+        "selectedIconPath": "icon/_func.png",
+        "text": "功能"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "icon/mine.png",
+        "selectedIconPath": "icon/_mine.png",
+        "text": "我的"
+      }
+    ]
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
